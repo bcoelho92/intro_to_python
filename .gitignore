@@ -14,3 +14,7 @@ venv/
 # Ignorar arquivos de sistema
 .DS_Store
 Thumbs.db
+
+# Ignora tudo dentro de migrations exceto __init__.py
+**/migrations/*
+!**/migrations/__init__.py
